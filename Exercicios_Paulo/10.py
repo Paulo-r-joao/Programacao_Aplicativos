@@ -8,6 +8,7 @@ while i<=5:
  elem = int(input("Digite um elemento da lista:"))
  lista.append(elem)
  i+=1
+ #Imprimir elemento final
  print(lista)
  ultimo_elemento = obter_ultimo_elemento(lista)
  print("Último elemento da lista:", ultimo_elemento)

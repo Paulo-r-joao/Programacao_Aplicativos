@@ -9,6 +9,7 @@ def insertion_sort(lista):
      lista=list()
      i=1
     while i<=10:
+    #Receber elemento para lista
         elem = int(input("Digite um elemento da lista:"))
     lista.append(elem)
     i+=1

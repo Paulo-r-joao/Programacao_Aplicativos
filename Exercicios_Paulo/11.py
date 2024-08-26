@@ -11,6 +11,7 @@ class Agenda:
     def remover_contato(self, contato):
         self.contatos.remove(contato)
     def listar_contatos(self):
+        #Informações dos campos
         for contato in self.contatos:
             print("Nome:", contato.nome)
             print("Endereço:", contato.endereco)
